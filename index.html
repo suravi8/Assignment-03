@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,13 +17,17 @@
     .manrope{
       font-family: "Manrope", sans-serif;
     }
+    body{
+      overflow-x: hidden;
+    }
    </style>
 
 </head>
-<body class="bg-white">  
-  <header>
-    <header class="manrope">    
-      <section class="container mx-auto px-11">        
+<body>  
+
+ 
+    <header class="manrope w-screen">    
+      <section class="container mx-auto px-11 w-screen">        
         
         <div class="navbar">
           <!-- navbar-start -->
@@ -77,7 +81,7 @@
           </div>
         </div>
       </section>  
-      <section class="">
+      <section class="w-screen">
         <div class="hero ">
           <div class="hero-content text-center">
             <div class="max-w-xl">
@@ -95,12 +99,12 @@
         </div>
       </section>
     </header> 
-  </header>
+  
 
 
-  <main class=" bg-gray-100">
+  <main class=" bg-gray-100 w-screen">
     <!-- ABOUT US START -->
-    <section class="manrope mb-40">
+    <section class="manrope mb-40 w-screen">
       <img src="assets/Vector.png" alt="" class="pl-24">  
       <div class="container mx-auto px-11 w-5/6 space-x-7">        
         <div class="flex  flex-col lg:flex-row">
@@ -152,7 +156,7 @@
 
      <!-- COUNT START -->
 
-     <section class="manrope mt-40">
+     <section class="manrope mt-40 w-screen">
       <div class="container mx-auto pl-24">
         <div class="shadow w-11/12 lg:flex sm:mt-40 bg-white rounded-xl">
           <div class="stat place-items-center">
@@ -189,7 +193,7 @@
 
 
       <!-- work -->
-      <section class="manrope mt-20 bg-gray-100">    
+      <section class="manrope mt-20 bg-gray-100 w-screen">    
         <div class="container mx-auto px-11">
           <div class="hero bg-base-200 ">
             <div class="hero-content text-center">
@@ -262,7 +266,7 @@
          <!-- work end -->
 
          <!--Explore our Latest works start  -->
-         <section class="manrope bg-white">
+         <section class="manrope bg-white w-screen">
 
     
           <div class="container mx-auto px-11">
@@ -353,7 +357,7 @@
 
          <!-- Rinterio News start -->
 
-         <section class="manrope te-primary mb-11">
+         <section class="manrope te-primary mb-11 w-screen">
     
 
           <div class="container mx-auto px-11">
@@ -477,7 +481,7 @@
 
 
           <!--connect start  -->
-          <section class="manrope pb-40" style="background-image: url(assets/bg.jpg);">
+          <section class="manrope pb-40 w-screen" style="background-image: url(assets/bg.jpg);">
     
             <div class="container mx-auto px-11">
               <!-- text -->
@@ -499,7 +503,7 @@
               </div> 
         
               <!-- from -->
-               <form>
+               <form class="w-screen">
                 <div class="flex w-full flex-col lg:flex-row gap-4">
                   <div class="card rounded-box grid  flex-grow place-items-center">
                     <input type="text" placeholder="First Name*" class="input input-bordered rounded-full w-full" />
